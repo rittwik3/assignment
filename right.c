@@ -1,7 +1,18 @@
 #include "func.h"
 
-int match(char a[] , char b[])
+int main()
 {
+	char a[] = "gt*";
+	char b[] = "gtfg";
+	printf("answer is : %d",match(a,b));
+	return 0;
+}
+
+
+
+//int match(char a[],char b[])
+
+/*{
     if(a==NULL||b==NULL)
     {
     return 0;
@@ -27,7 +38,6 @@ else if(a[0] == '?')
         return (match(&a[1],&b[1]));
     }
 }
-
 else if(a[0] == '*')
 {
     if(b[0] == '\0')
@@ -41,4 +51,5 @@ else if(a[0] == '*')
     
 }
 return 0;
-}
+}*/
+

@@ -1,2 +1,2 @@
 all:
-	gcc matrix.c func.c
+	gcc func.c right.c
